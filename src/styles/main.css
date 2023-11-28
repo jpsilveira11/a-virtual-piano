@@ -45,7 +45,7 @@ main .header{
     cursor:pointer;
     position:relative;
 }
-.keys-check input::before{
+.keys-check input:checked::before{
     content:"";
     width: 20px;
     height: 20px;
@@ -57,7 +57,7 @@ main .header{
     transition:all .3s ease;
     background-color: #fff;
 }
-.keys-check input:checked::before{
+.keys-check input::before{
     left:2.7rem;
     background-color:#8c8c8c;
 }
