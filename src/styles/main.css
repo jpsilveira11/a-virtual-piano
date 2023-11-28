@@ -39,18 +39,20 @@ main{
     position:relative;
 }
 .keys-check input::before{
+    content:"";
     width: 20px;
     height: 20px;
     position: absolute;
     top:50%;
     left:.3rem;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     border-radius: inherit;
     transition:all .3s ease;
     background-color:#8c8c8c;
 }
 .keys-check input:checked::before{
-    left:2.1rem;
+    left:2.7rem;
+    background-color:#8c8c8c;
 }
 .piano-keys{
     display: flex;
