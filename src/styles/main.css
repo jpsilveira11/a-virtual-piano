@@ -10,7 +10,7 @@ main{
     width: 780px;
     border-radius: 20px;
     padding: 35px 40px;
-    /* background-color: magenta; */
+    background-color: black;
 }
 .header h2{
     font-size: 1.6rem;
@@ -55,5 +55,4 @@ main{
 .piano-keys{
     display: flex;
     margin-top:40px;
-    background-color: black;
 }
