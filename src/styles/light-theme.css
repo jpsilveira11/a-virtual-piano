@@ -10,9 +10,9 @@ main.header{
 .keys-check input{
     background-color: #4b4b4b;
 }
-.keys-check input:checked::before{
-    background-color: #fff;
-}
 .keys-check input::before{
-    background-color:#8c8c8c;
+    background-color: #8c8c8c;
+}
+.keys-check input:checked::before{
+    background-color:#fff;
 }

@@ -51,14 +51,14 @@ main .header{
     height: 20px;
     position: absolute;
     top:50%;
-    left:.3rem;
+    left:2.7rem;
     transform: translateY(-50%);
     border-radius: inherit;
     transition:all .3s ease;
     background-color: #8c8c8c;
 }
 .keys-check input:checked::before{
-    left:2.7rem;
+    left:.3rem;
     background-color:#fff;
 }
 .piano-keys{
