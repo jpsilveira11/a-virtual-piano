@@ -45,7 +45,7 @@ main .header{
     cursor:pointer;
     position:relative;
 }
-.keys-check input:checked::before{
+.keys-check input::before{
     content:"";
     width: 20px;
     height: 20px;
@@ -55,11 +55,11 @@ main .header{
     transform: translateY(-50%);
     border-radius: inherit;
     transition:all .3s ease;
-    background-color: #fff;
+    background-color: #8c8c8c;
 }
-.keys-check input::before{
+.keys-check input:checked::before{
     left:2.7rem;
-    background-color:#8c8c8c;
+    background-color:#fff;
 }
 .piano-keys{
     display: flex;
