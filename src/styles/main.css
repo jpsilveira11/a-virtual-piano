@@ -77,7 +77,8 @@ main .header{
     width: 70px;
     height: 230px;
     border-radius: 8px;
-    background:linear-gradient(#fff 96%, #eee 4%);
+    background:linear-gradient(#fff,#eee);
+    /* background:linear-gradient(#fff 96%, #eee 4%); */
 }
 .piano-keys .white:active{
     box-shadow: inset -5px 5px 20px rgba(0,0,0,.2);
@@ -88,7 +89,7 @@ main .header{
     height: 140px;
     border-radius: 0 0 5px 5px;
     z-index: 2;
-    margin: 0 -22px 0 -22px;
+    margin: 0 -21px 0 -22px;
     background:linear-gradient(#333, #000);
 }
 .piano-keys .black:active{
