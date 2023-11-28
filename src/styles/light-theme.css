@@ -1,6 +1,9 @@
 body{
     background-color: #e3f2fd;
 }
+main.header{
+    color:#b2b2b2;
+}
 .vol-slider{
     accent-color: #fff;
 }
@@ -8,5 +11,8 @@ body{
     background-color: #4b4b4b;
 }
 .keys-check input::before{
+    background-color: #fff;
+}
+.keys-check input:checked::before{
     background-color:#8c8c8c;
 }
