@@ -4,6 +4,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: #e3f2fd;
+    color:white;
 }
 main{
     width: 780px;
@@ -36,4 +37,23 @@ main{
     background-color: #4b4b4b;
     cursor:pointer;
     position:relative;
+}
+.keys-check input::before{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    left:.3rem;
+    transform: translateY(50%);
+    border-radius: inherit;
+    transition:all .3s ease;
+    background-color:#8c8c8c;
+}
+.keys-check input:checked::before{
+    left:2.1rem;
+}
+.piano-keys{
+    display: flex;
+    margin-top:40px;
+    background-color: black;
 }
