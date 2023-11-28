@@ -51,7 +51,7 @@ main .header{
     height: 20px;
     position: absolute;
     top:50%;
-    left:2.7rem;
+    left:2.2rem;
     transform: translateY(-50%);
     border-radius: inherit;
     transition:all .3s ease;
