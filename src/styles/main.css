@@ -103,3 +103,6 @@ main .header{
     text-align: center;
     font-size:1.1rem;
 }
+.piano-keys .key.hide span{
+    display: none;
+}
