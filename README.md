@@ -7,8 +7,7 @@ Pequeno projeto simulando um piano feito com HTML, CSS e Javascript é o 3º dos
 
 ### Tecnologias Utilizadas
 
-- HTML5 e CSS3 para estrutura e estilizar a página;
-- JavaScript para a lógica de programação e implementação das funcionalidades;
+[![Stacks](https://skillicons.dev/icons?i=html,css,javascript)](https://skillicons.dev)
 
 ### Modificações
 
