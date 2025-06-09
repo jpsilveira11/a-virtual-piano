@@ -1,11 +1,10 @@
 # A Virtual Piano
 
-<p align="center">
-    <img src="./src/images/snapshot.png" alt="Snapshot">
-</p>
+![Snapshot](src/images/snapshot.png "Project Snapshot")
+    
 Pequeno projeto simulando um piano feito com HTML, CSS e Javascript é o 3º dos 4 projetos do Bootcamp Potência Tech iFood - Desenvolvimento de Jogos.
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 [![Stacks](https://skillicons.dev/icons?i=html,css,javascript)](https://skillicons.dev)
 
